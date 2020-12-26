@@ -16,6 +16,9 @@ app.set('port', process.env.API_PORT);
 app.use(cors());
 app.use(bodyParser.json());
 
+/* eslint no-underscore-dangle: 0 */
+app.use('/api/v1', app._router);
+
 SwaggerRouter(app);
 LogsRouter(app);
 
