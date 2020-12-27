@@ -9,7 +9,7 @@
     "dev": "set NODE_ENV=dev && nodemon --exec babel-node index.js",
     "start": "set NODE_ENV=prod && babel-node index.js",
     "test-integration": "set NODE_ENV=dev && mocha --opts test/integration/mocha.opts test/integration/**/*.js",
-    "test-unit": "set NODE_ENV=dev && mocha --opts test/unit/mocha.opts test/unit/**/*.js",    
+    "test-unit": "set NODE_ENV=dev && mocha --opts test/unit/mocha.opts test/unit/**/*.js",
     "lint": "eslint '**/*.js'",
     "lint:fix": "eslint '**/*.js' --fix"
   },
@@ -52,7 +52,7 @@
     "eslint-plugin-jsx-a11y": "5.0.1",
     "eslint-plugin-react": "7.12.4",
     "http-status": "^1.5.0",
-    "husky": "^4.3.6",
+    "husky": "4.3.0",
     "mocha": "^7.2.0",
     "nodemon": "^2.0.6",
     "supertest": "^4.0.2"

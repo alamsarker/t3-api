@@ -11,7 +11,11 @@ export default class Controller {
   }
 
   getAll(req, res) {
-    return this.model.findAll({})
+    return this.model.findAll({
+      order: [
+        ['id', 'DESC']
+      ]
+    })
       .then((result) => response(result, res))
       .catch((error) => errorResponse(error.message, res));
   }

@@ -25,7 +25,7 @@ Step 2: Install NodeJS and packages
 
 ## Tests
 
-Integration test has been added for all logs CRUD. Unit Test is missing because there weren't implemeted any business logic.
+Run `npm run test-integration` for integration test. Integration test has been added for all logs CRUD. Unit Test is missing because there weren't implemeted any business logic.
 
 
 ## Technical Notes
