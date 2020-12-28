@@ -35,3 +35,7 @@ Run `npm run test-integration` for integration test. Integration test has been a
 3) Log CRUD has been implemented in this api.
 4) Single session - This feature has not added for the sake of simplicity.
 5) sqlite db has used for both integration test and data for the simplicity.In real world, mongo or other relational DB will use for storing data and memory based sqlite may be ok for integration/regression test.
+
+## Known Issues
+
+1) Running `t3-api` server by docker is showing `sh: 1: babel-node: not found` error if `npm install` has not run on host machine.
