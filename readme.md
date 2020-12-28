@@ -20,8 +20,9 @@ Step 2: Install NodeJS and packages
 
    * Clone repository and go to project directory.
    * Run `cp .env.example .env`.
-   * Run `make` or `make start`. If it's not working, then try to use `sudo` as `sudo make start`. Also, there can be conflict on ports. Its needed to change the port from `docker-compose.yml` file.    
-    * Access T3-API via http://localhost:7000
+   * Run `npm install`.
+   * Run `npm start` or `make.  
+   * Access T3-API via http://localhost:7000
 
 ## Tests
 
