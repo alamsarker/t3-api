@@ -21,7 +21,7 @@ Step 2: Install NodeJS and packages
    * Clone repository and go to project directory.
    * Run `cp .env.example .env`.
    * Run `npm install`.
-   * Run `npm start` or `make.  
+   * Run `npm start` or `make`.  
    * Access T3-API via http://localhost:7000
 
 ## Tests
